@@ -33,9 +33,17 @@ add -> adds new or changed files in your working directory to the Git staging ar
 commit -> it is the record of change
 	git commit -m "some message"
 
+		  	Step 1			   Step 2
+	Working	------------------> Staging -------------------> Git Repository
+	  Area 	 	Adding	     Area	Commit Indexed
+			changes to		changes to
+			Staging Area		Repository		
+
 Push Command
 	push -> upload local repo content to remote repo
 		git remote add origin <-link->
 		git push -u origin main
 		git push origin main
+		git push
+
 
