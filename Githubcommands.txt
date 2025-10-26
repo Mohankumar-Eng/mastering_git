@@ -24,10 +24,18 @@ Add & Commit
 
 add -> adds new or changed files in your working directory to the Git staging area.
 	git add <-file name->
+	git add . (To add all files in directory)
+	git add --all (To add a specific list of files to the staging area)
+	git add *.txt (To add all files with extension .txt of the current directory to staging area.)
+	git add docs/*.txt (To add all text files with .txt extension of the docs directory)
+	git add docs/ (To add all txt files of a particular docs to staging area)
+	git add *.txt (To add all files in a particular directory to stagging area)
 commit -> it is the record of change
 	git commit -m "some message"
 
 Push Command
 	push -> upload local repo content to remote repo
+		git remote add origin <-link->
+		git push -u origin main
 		git push origin main
 
