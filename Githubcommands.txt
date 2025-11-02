@@ -46,4 +46,6 @@ Push Command
 		git push origin main
 		git push
 
-
+Git Branches
+	git branch
+	
